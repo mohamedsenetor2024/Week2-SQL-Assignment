@@ -1,0 +1,40 @@
+
+# Week 2: SQL Assignment
+
+## Overview
+This assignment covers the fundamentals of SQL using the sales database.
+
+## Learning Objectives
+- Selecting specific columns using SELECT.
+- Filtering records using WHERE.
+- Sorting records using ORDER BY.
+- Using ASC and DESC.
+- Limiting query results using LIMIT.
+- Retrieving all columns using SELECT *.
+
+## Assignment Questions
+
+### Question 1: Retrieve Payment Information
+Retrieve checkNumber, paymentDate, and amount from the payments table.
+
+### Question 2: Find Orders in Process
+Retrieve orderDate, requiredDate, and status from orders where status is In Process. Sort by orderDate in descending order.
+
+### Question 3: Find Sales Representatives
+Retrieve firstName, lastName, and email from employees whose jobTitle is Sales Rep. Sort by employeeNumber in descending order.
+
+### Question 4: Retrieve Office Information
+Retrieve all columns and records from the offices table.
+
+### Question 5: Retrieve the Five Cheapest Products
+Retrieve productName and quantityInStock from products. Sort by buyPrice in ascending order and limit the results to five records.
+
+## Technologies Used
+- MySQL
+- MySQL Workbench
+- SQL
+- Git
+- GitHub
+
+## Author
+Mohamed Muhumed
